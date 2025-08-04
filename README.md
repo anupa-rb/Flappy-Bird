@@ -1,33 +1,35 @@
-# Flappy‑Bird 🐦
+# Flappy‑Bird 🐦 (C++ Edition)
 
-A web-based remake of the classic Flappy Bird game. Tap or press a key to make the bird flap and navigate through a series of pipes—see how high you can score!
+A native C++ recreation of the classic Flappy Bird game. Fly the bird by navigating through hurdle gaps—see how long you can survive!
 
 ---
 
 ## 🚀 Features
 
-- Simple and addictive gameplay
-- Bare-bones physics: gravity, flap impulse, collision detection
-- Colorful sprites or custom assets
-- Score tracking and display, with best‑score persistence
-- Playable on desktop and mobile (touch + keyboard input)
+- Core Flappy Bird mechanics: gravity, flapping motion, and collision detection  
+- Score tracking and real-time display  
+- Simple asset usage—console-based or lightweight graphics  
+- Fully written in C++ (no HTML, CSS, or JS)
 
 ---
 
-## 🧱 Tech Stack
+## 🧱 Technology & Dependencies
 
-- **Frontend**: HTML5, CSS, JavaScript
-- **Game Engine**: Pure JS with HTML Canvas (or Phaser / other framework, if used)
-- **Assets**: Sprites, sounds (in a folder like `sprites/`
+Depending on your implementation, your project may rely on one of:
 
-and `audio/`)
-- **Build Tools**: Optional (Webpack, Parcel, or plain static files)
+- **Console-based** (e.g., using `iostream`, Windows console functions)  
+  – Completely text‑based gameplay as in this example: console obstacles and bird control using Spacebar :contentReference[oaicite:1]{index=1}  
+- **Graphical version** using libraries like:
+  - SFML (Simple and Fast Multimedia Library) for window, sprite, input, and audio handling :contentReference[oaicite:2]{index=2}  
+  - OpenGL / GLUT for simple graphical rendering in C++ :contentReference[oaicite:3]{index=3}  
+
+Choose whichever corresponds to your codebase.
 
 ---
 
-## 📥 Getting Started
+## 📥 Building & Running
 
-### Clone
+### Clone the repository:
 
 ```bash
 git clone https://github.com/anupa-rb/Flappy-Bird.git
